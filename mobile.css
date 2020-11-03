@@ -1,0 +1,622 @@
+
+@media(max-width:1000px){
+    .example::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .container{
+        width: 100%;
+    }
+    .up-nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    .up-nav ul li{
+        font-size: .7rem;
+        padding: .5rem;
+    }
+    .up-nav ul li a{
+        padding: .5rem;    
+    }
+    .mid-nav .divide .logo{
+        padding: .5rem;
+    }
+    .mid-nav .divide .co li{
+        padding: .5rem;
+    }
+    .mid-nav .divide .co li a{
+        font-size: 1rem;       
+    }
+    .bot-nav ul{
+        display: flex;
+        justify-content:center;
+    }
+    .bot-nav ul li{
+        padding:.3rem;
+    }
+    .bot-nav ul li a{
+        pad: .3rem;
+        font-size: .8rem;
+    }
+    
+    .section-1{
+        margin-top:.8rem;
+        height: 40vh;
+        
+    }
+    .section-1 .showcase div{
+        padding-top: 7vh;
+        color: white;
+    }
+
+    .section-2{
+        margin: 1.5rem 0;
+    }
+    .section-2 .item .card{
+        border-radius: .8rem;
+        padding: 1rem;
+        height: 6rem;
+    }
+    .section-2 .item .card h2{
+        font-size: 1rem;
+    }
+    .section-2 .item .card p{
+        font-size: .7rem;
+    }
+    .top:hover{
+        transform: translateY(.8rem);
+    }
+    .bot:hover{
+        
+        transform: translateY(-.8rem);
+    }
+    
+    .enquiry{
+        margin: 5rem auto;
+        height: 40rem;
+    }
+    .enquiry .grad .a h1{
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-top: 1.5rem; 
+    }
+    .enquiry .grad .a {
+        padding: 5rem;
+    }
+    .enquiry .grad .a p{
+       padding: 1rem;
+        font-size: 1rem;
+    }
+    .news-event{
+        margin: 5rem 0;
+    }
+    
+    .news-event .part{
+        display: inline;
+        overflow: hidden;
+
+    }
+    .news-event .part  .news{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .news-event .part  .news .slider .box{
+        padding: 1rem;
+        margin: 1rem 3rem;
+        
+    }
+
+    @keyframes animate{
+        0%,100%{
+            left:5%;
+        }
+        20%{
+            left:5%;
+        }
+        25%{
+            left:-23%;;
+        }
+        45%{
+            left: -23%;
+        }
+        50%{
+            left: -46%;
+        }
+        70%{
+            left:-46%;
+        }
+        75%{
+            left: -73%;
+        }
+        95%{
+            left:-73%;
+        }
+    }
+    .management{
+        width: 100%;
+        margin: 3rem auto;
+    }
+    .management h1{
+        padding: 1rem 0;
+    }
+    .management div {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: .8rem;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .management div img{
+        width: 100%;
+    }
+            
+    footer{
+        margin-top: 5rem;
+        font-size: .8rem;
+    }
+    footer .contain{
+        width: 100%;
+        grid-gap: 0rem;
+        margin: 1rem;
+    }
+    .contain .cont-detail .add i{
+        font-size: 1.4rem;
+        padding: 0 .6rem;
+    }
+    hr{
+        margin: 0 auto;
+        width: 90%;
+        
+    }
+    .media{
+        width: 90%;
+    }
+    .contain .gal .gal-img img{
+        width: 90%;
+        
+        height: 6rem;
+    }
+    .two-part{
+        width: 100%;
+       
+        grid-gap: .2rem;
+    }
+    .two-part .first .list-item{
+        margin-left: .6rem;
+    }
+    /* ------------------------management-------------------------------- */
+    .head-img .showcase-img2{
+        height:40vh;
+        background-position-y:1rem ;
+    }
+    .two-part .second .about-trust .trust-flex{
+
+        padding: 0rem;
+    }
+    .two-part .second .about-trust .trust-flex .trust-info{
+        padding: 1rem ;
+    }
+    .two-part .second .about-trust .trust-flex .trust-img{
+        
+        padding: .3rem;
+    }
+    .two-part .second .sgi-management .r{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .two-part .second .sgi-management .l{
+        display: flex;
+        flex-direction: column;   
+    }
+    .two-part .second .about-trust .trust-flex .trust-info p{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+   
+    
+   
+    .two-part .second .advisory .advisory-part .ad img{
+        width: 70%;
+    }
+    /* ---------------------infrastructure--------------------------- */
+    .two-part .second  .campus .infra{
+        
+        width: 80%;
+        margin: 0 auto;
+        grid-gap: .5rem;
+    }
+
+    /* ------------------acedemic-------------------------------- */
+        
+    .two-part .second .curriculum1,
+    .two-part .second .curriculum2,
+    .two-part .second .curriculum3{
+        padding: 1rem;
+    }
+    .two-part .second .curriculum2{
+        background-position-y: 10rem;
+        background-size: 41rem;
+    }
+    .two-part .second .brochure-info{
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .two-part .second .primary .pri{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .two-part .second .primary .pri .pri-l{
+        padding: 0 1rem;
+    }
+    .two-part .second .primary .pri .pri-r img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .two-part .second .teacher{
+        background-position-x: 2rem;
+    }
+    .two-part .second .competition .comp{
+        margin: 0 1rem;
+    }
+
+    /* ----------------------------admission------------------------------- */
+    .admisson .buil img{  
+        width: 80%;
+        border-radius: 2rem;
+    }
+
+}
+
+@media(max-width:700px){
+    .example::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .mid-nav .divide .co .bars{
+        display: inline;
+    }   
+    .up-nav{
+        display: none;
+    }
+   
+    .mid-nav .divide .logo{
+        padding: .5rem;   
+    }
+    .mid-nav .divide .logo h1{
+        font-size: 1.3rem;
+    }
+    .mid-nav .divide .logo h2{
+        font-size:1rem;
+    }   
+
+    .bot-nav{
+        display: none;
+        text-align: center;
+        justify-content: right;
+        z-index: 2;
+        margin: .5rem 0;
+        background-color:rgb(235, 37, 11)  ;
+    }
+    .bot-nav ul li a{
+        color: #fff;
+        font-weight: bold;
+        font-size: .9rem;
+    }
+    .bot-nav ul li a:hover{
+        color: #f4f4f4;
+    }
+    .bot-nav ul{
+        display: inline;
+        text-align: center;
+        justify-content: center;
+    }
+ 
+    .bot-nav ul li:hover{
+        background:rgb(170, 40, 23);
+    }
+    .section-1 .showcase div{
+        padding-top:1rem;
+        color: white;
+    }
+    .section-1 .showcase div h1{
+        font-size: 1.8rem;
+    }
+    .section-1 .showcase div p{
+        display: none;
+    }
+    footer .contain{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .2rem;
+    }
+
+    .contain .cont-detail .add i{
+        font-size: 1rem;
+        padding: 0 .5rem;
+    }
+    .media i{
+        padding: 0 .3rem;
+    }
+
+    /* -----------------------------management------------------------------------ */
+
+    
+    .two-part .second .about-trust .trust-flex .trust-info p{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .two-part .second .about-trust .trust-flex .trust-img{
+        border:none;
+    }
+   
+    .two-part .second  .pic img{
+        width: 100%;
+    }
+    
+   
+    .two-part .second .advisory .advisory-part .ad img{
+        width: 80%;
+    }
+    /* -------------------acedemic-------------------------- */
+    .two-part .second .brochure-info{
+        padding: 1rem;
+        text-align: center;
+    }
+    /* ---------------------------------------facility------------------------------ */
+    .boarding .board-info .panel{
+        display: inline;
+        margin: 0 1rem;
+    }
+}
+
+
+@media(max-width:550px)
+{   
+    .two-part .first .list-item{
+        margin-left: 0rem;
+    }
+    .section-2 {
+        margin: 5rem 0;
+    }
+    .section-2 .item{
+        display: inline;
+        align-items: center;
+        text-align: center;
+
+    }  
+    .section-2 .item .card{
+        border-radius: none;
+        margin: .5rem 0;
+    } 
+    .top:hover,
+    .bot:hover{
+        transform: none;
+    }
+    .top:hover{
+        background-color: rgb(235, 37, 11);
+    }
+    
+    .bot:hover{
+        background-color: #333;
+    }
+    .enquiry{
+        margin: 20rem 0;
+        background: none;
+    }
+    
+    .enquiry .grad{
+        background: none;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .enquiry .grad :last-child form select,
+    .enquiry form input,
+    .enquiry form  textarea{
+        color: #333;
+        width: 100%;
+        margin: .4rem 0;
+    }
+    .enquiry .grad :last-child form select::placeholder,
+    .enquiry form input::placeholder,
+    .enquiry form  textarea::placeholder{
+        color: #333;
+
+    }
+
+    .enquiry .grad .a h1{
+        font-size: 2rem;
+    }
+    .enquiry .grad .a {
+        padding: 3rem;
+    }
+    .enquiry .grad .link{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin-left: 0rem;
+        border: 2px solid rgb(235, 37, 11);
+    }
+
+
+    .enquiry .grad .link a{
+        color: #333;
+        
+    }
+    
+    
+    .news-event .part  .news{
+        width: 80%;
+    }
+    .news-event .part  .news .slider .box{
+        padding: 0rem;
+        /* background-color: rosybrown; */
+        margin: 1rem 4rem;
+        left:-190%;
+        
+    }
+    
+    .news-event .part  .news .slider .box p{
+        width: 250px;
+    }
+
+    @keyframes animate{
+        0%,100%{
+            left:-10%;
+        }
+        20%{
+            left:-10%;
+        }
+        25%{
+            left:-80%;;
+        }
+        45%{
+            left: -80%;
+        }
+        50%{
+            left: -140%;
+        }
+        70%{
+            left:-140%;
+        }
+        75%{
+            left: -200%;
+        }
+        95%{
+            left:-200%;
+        }
+    }
+
+    footer{
+        margin: 0;
+    }
+    footer .contain{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .2rem;
+    }
+
+    .contain .cont-detail .add i{
+        font-size: 1rem;
+        padding: 0 .5rem;
+    }
+    .media i{
+        padding: 0 .3rem;
+    }
+    /* --------------------------management----------------------------------- */
+    .two-part .second .sgi-management .management-flex .management-img img{
+        width: 80%;
+    }
+    .two-part .second .sgi-management .management-flex .management-info p{
+        padding: 0 1rem;
+    }
+    .two-part .second .advisory .advisory-part .ad p{
+        padding: 0 1rem;
+    }
+    /* -------------------------------about---------------------------------- */
+    .two-part{
+        display: inline;
+
+    }
+    .two-part .first .list-item{
+        margin-top: 5rem;
+    }
+    .two-part .second .mandv{
+        display: inline;
+    }
+    .two-part .second .mandv .mission{
+        margin: .5rem 0;
+    }
+    .two-part .second .about-school p{
+        padding: 0 1rem;
+    }
+    .two-part .second  .pic img{
+        width: 100%;
+    }
+    .two-part .second .about-trust .trust-flex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .two-part .second .about-trust .trust-flex .trust-img{
+        width: 50%;
+        margin: 0 auto;
+        border:none;
+    }
+    .two-part .second .advisory .advisory-part{
+        display: flex;
+        flex-direction: column;
+    }
+    .two-part .second .brochure-info{
+        padding: .5rem;
+    }
+    .two-part .second .brochure-info a{
+        font-size: .8rem;
+    }
+    .two-part .second .teacher .teacher-showcase{
+        display: flex;
+       flex-direction: column;
+        padding: 1rem;
+    }
+    .two-part .second .curriculum2 .showcase{
+        background: none;
+
+    }
+    .two-part .second .curriculum2,
+    .two-part .second .curriculum3  {
+        background: none;
+    }
+    .two-part .second .teacher{
+        background-position-y: 0; 
+        background-position-x: -8rem; 
+
+    }
+    .two-part .second .activity .act{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .two-part .second .competition .comp{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: .5rem;
+    }
+    .two-part .second .activity .act .activity-l p{
+        padding: 1rem;
+    }
+    .two-part .second .activity .act .activity-l .link{
+        margin: 1rem;
+    }
+    
+    .admisson .buil img{  
+    
+        border-radius: 0;
+    }        
+    .admisson .p{
+        padding: 1rem;
+    }
+    .fee .fees{
+        display: flex;
+        flex-direction: column;
+    }
+    .fee div{
+        padding: 1rem;
+    }
+    /* -------------------------------club&house------------------------------------ */
+    .two-part .second .about div{
+        padding: .5rem;
+    }
+
+
+
+
+
+
+
+
+
+}

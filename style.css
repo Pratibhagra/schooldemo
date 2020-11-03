@@ -1,0 +1,1213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+
+    scroll-behavior: smooth ;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.example {
+    -ms-overflow-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.up-nav{
+    background-color: rgb(170, 40, 23);
+}
+
+.up-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+}
+
+.up-nav ul li{
+    font-size: 1rem;
+    padding: .8rem;
+
+}
+.up-nav ul li a{
+    padding: .8rem;
+    color: #fff;
+}
+.up-nav ul li a:hover{
+    background:rgb(235, 37, 11) ;   
+}
+.mid-nav{
+    background:rgb(235, 37, 11) ;
+    color: #fff;
+}
+
+.mid-nav .divide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mid-nav .divide .logo{
+    padding: .8rem;
+
+    
+}
+
+.mid-nav .divide .co{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mid-nav .divide .co li{
+    padding: .8rem;
+}
+.bars{
+    display: none;
+}
+.mid-nav .divide .co li a{
+    font-size: 1.5rem;
+    color: #fff;
+    
+}
+.mid-nav .divide .co li a:hover{
+    color: #333;
+}
+.bot-nav{
+    background: #fff;
+    
+}
+
+.bot-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.bot-nav ul li{
+    padding: 1rem;
+}
+
+.bot-nav ul li a{
+    padding: .5rem;
+    color:rgb(235, 37, 11)  ;
+}
+
+.bot-nav ul li a:hover{
+    color: #333;
+}
+
+.section-1{
+    margin-top: 1rem;
+    background: url('./image/showxase13.jpg') no-repeat center center/cover;
+    height: 60vh;
+    
+}
+
+.section-1 .showcase{
+    background: rgba(235, 37, 11,.5);
+    position: relative;;
+    left: 0;
+    top: 0;
+    height: 100%;
+    text-align: center;
+}
+.section-1 .showcase div{
+    padding-top: 15vh;
+    color: white;
+}
+
+.section-1 .showcase div h1{
+    font-size: 4rem;
+    padding: 3rem;
+}
+.section-1 .showcase div p{
+    font-size: 1.4rem;
+}
+
+.section-2{
+    margin: 3rem;
+}
+
+.section-2 .item{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: .5rem;
+    align-items: center;
+}
+
+.section-2 .item .card{
+    text-align: center;
+    border-radius: 1rem;
+    align-items: center;
+    color:#fff;
+    padding: 2rem;
+    height: 8rem;
+}
+.section-2 .item .card h2{
+    padding-bottom:.4rem ;
+}
+
+.top{
+    transform: translateY(0);
+    transition: all .3s ease-in;
+    cursor: pointer;
+    background:rgb(235, 37, 11);
+}
+.top:hover{
+    background: #333;
+    transform: translateY(1rem);
+}
+
+.bot{
+    transform: translateY(0);
+    transition: all .3s ease-in;
+    background: #333;
+    cursor: pointer;
+}
+.bot:hover{
+    background:rgb(235, 37, 11);
+    transform: translateY(-1rem);
+}
+
+
+.enquiry{
+    margin: 10rem auto;
+    background: url('./image/college_student_campus_18\ \(1\).jpeg') 
+    no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+.enquiry .grad{
+    background: rgba(235, 37, 11,.5);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-gap: 1rem;
+    justify-content: center;
+}
+.enquiry .grad :last-child{
+    color: #fff;
+    padding: 2rem;
+}
+.enquiry .grad .a h1{
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-top: 3rem;
+    
+}
+.enquiry .grad .a{
+    text-align: center;
+    background-color: rgb(235, 37, 11);
+   color: #fff;
+}
+
+.enquiry .grad .a p{
+    padding: 2rem;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+
+.enquiry .grad :last-child form select,
+.enquiry form input,
+.enquiry form  textarea{
+    display: block;
+    font-size: 15px;
+    background: transparent;
+    border: 1px solid rgb(235, 37, 11);
+    width: 80%;
+    margin: 5px auto;
+    overflow: hidden;
+    color: #fff;
+    padding: 10px;
+}
+
+.enquiry .grad :last-child form select::placeholder,
+.enquiry form input::placeholder,
+.enquiry form  textarea::placeholder{
+    color: #fff;
+
+}
+
+.enquiry .grad :last-child form select option{
+     background: rgb(235, 37, 11);
+     color: #fff;
+ }
+
+.enquiry .grad .link{
+     display: inline-block;
+     color: #fff;
+     padding: .8rem 1.5rem;
+     margin-left: 4.0rem;
+     border: 2px solid rgb(235, 37, 11);
+ }
+
+.enquiry .grad .link:hover{
+     background: rgb(235, 37, 11);}
+
+ 
+.news-event{
+    margin: 10rem 0;
+}
+
+.news-event .part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    overflow: hidden;
+
+}
+
+.news-event .part  .news{
+ overflow: hidden;
+ padding: 1rem;
+}
+.news-event .part  .news h1{
+    text-align: center;
+    color:rgb(235, 37, 11);
+}
+
+.news-event .part  .news .slider{
+    display: flex;
+    width: 150vw;
+}
+
+.news-event .part  .news .slider .box{
+    padding: 3rem;
+    text-align: justify;
+    position: relative;
+    top: 0;
+    margin: 1rem 5rem;
+    animation: animate 10s ease-in infinite;
+}
+
+@keyframes animate{
+    0%,100%{
+        left:0%;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left:-25%;
+    }
+    45%{
+        left: -25%;
+    }
+    50%{
+        left: -50%;
+    }
+    70%{
+        left:-50%;
+    }
+    75%{
+        left: -75%;
+    }
+    95%{
+        left:-75%;
+    }
+}
+.news-event .part  .news .slider .box p{
+    color: #333 ;
+}
+
+.management{
+    width: 80%;
+    margin: 5rem auto;
+}
+.management h1{
+    text-align: center;
+    color: rgb(235, 37, 11);
+}
+.management div{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+}
+.management div img{
+    width: 30%;
+}
+.management div img:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 0 black;
+}
+
+
+footer{
+    background: rgb(235, 37, 11);
+    margin-top: 10rem;
+    /* height: 70vh; */
+}
+
+footer .contain{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contain .heading{
+    padding:2rem 0 ;
+    color: #fff;
+    text-align: center;
+    
+}
+.contain .logo .heading{
+    /* display: flex; */
+    text-align: justify;
+}
+
+.contain p{
+    color: #f4f4f4;
+    text-align: justify;
+}
+
+.contain .menu .list{
+    padding: 1rem;
+    
+}
+.contain .menu .list li{
+
+    margin-bottom: .5rem;
+}
+.contain .menu .list li a{
+    text-align: justify;
+    margin-left: 3rem;
+    color: #fff;
+}
+
+.contain .menu .list li a:hover{
+    color: #333
+}
+
+
+.contain .gal .gal-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: .5rem;
+    overflow: hidden;
+}
+
+
+.contain .gal .gal-img img{
+    width: 100%;
+    
+    height: 6rem;
+}
+.contain .gal .gal-img .g-i{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.contain .gal .gal-img .g-i:after{
+    content: '';
+    background: rgba(235, 37, 11,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 6rem;
+    transform:scale(3)  translateX(0) translateY(0)  rotate(-28deg);
+    transition: transform .5s cubic-bezier(.2,1,.3,1);
+}
+
+.contain .gal .gal-img .g-i:hover:after{
+    transform:scale(3)  translateX(-75%) translateY(-75%)  rotate(-28deg);
+   
+}
+
+.contain .cont-detail .add{
+    display: flex;
+    padding: 1rem 0;
+}
+.contain .cont-detail .add i{
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 0 1rem;
+}
+
+hr{
+    margin-left: 10%;
+    
+}
+
+.media{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 1rem 0;
+}
+
+.media i{
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+.media i:hover{
+    color: #333;
+}
+.dis{
+    opacity: 0;
+
+    transition: all .4s ease-in;
+    
+}
+.show{
+   opacity: 1;
+   transform: translateY(50);
+}
+
+/* ------------------------------about------------------------------- */
+
+
+.head-img .showcase-img1{
+    background: url('./image/showcase12.jpg') no-repeat center center/cover;
+    height:40vh;
+    /* background-position-y:-20px ; */
+
+}
+
+.head-img .showcase{
+    background: rgba(235, 37, 11,.5);   
+    height: 100%;
+}
+
+.two-part{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 1rem;
+    width: 90%;
+    margin: 5rem auto;
+}
+
+.two-part .first .list-item{
+    position: sticky;
+    left: 0;
+    top:2rem;
+    margin:5rem 0;
+    background-color: #fff;
+    transition: all .3s ease-in;
+}
+.two-part .first .list-item:hover{
+    background-color: rgb(235, 37, 11);
+}
+.two-part .first .list-item:hover a,
+.two-part .first .list-item:hover h2{
+    color: #fff;
+    font-weight: normal;
+}
+.two-part .first .list-item h2{
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+.two-part .first .list-item a{
+    color: rgb(235, 37, 11);
+    display: block;
+    text-align: center;
+    padding: .5rem 1rem;
+    font-weight: bold;
+}
+
+.two-part .second .about-logo{
+    /* opacity: .5; */
+    background: url('./image/Picture1.png') no-repeat center center;
+    background-size: contain;
+    margin: 5rem 0;
+}
+.two-part .second .about-logo .showcase{
+    background: rgba(255,255,255,.7)
+}
+
+
+
+.two-part .second .about-logo h1{
+    text-align: center;
+    color: rgb(235, 37, 11);
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+
+.two-part .second .about-logo .logo-info{
+    padding: 2rem;
+    line-height: 1.4;
+    
+}
+
+.two-part .second .about-logo .logo-info p{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.two-part .second .about-school{
+    margin: 3rem 0;
+
+}
+
+.two-part .second .about-school h1{
+    text-align: center;
+   
+    color: rgb(235, 37, 11);
+}
+.two-part .second .about-school .school-img{
+    width: 90%;
+    margin: 3rem auto;
+    overflow: hidden;
+}
+.two-part .second .about-school .school-img img{
+    width: 100%;
+}
+
+.two-part .second .about-school p{
+    text-align: justify;
+    font-size: 1.1rem;
+    padding: .3rem 0;
+}
+
+.two-part .second .mandv{
+    margin: 10rem auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+}
+
+.two-part .second .mandv .mission{
+    padding: 3rem;
+    border: 2px solid rgb(235, 37, 11);
+}
+
+.two-part .second .mandv .mission h1{
+    text-align: center;
+    color: rgb(235, 37, 11);
+    padding: 1rem 0;
+
+}
+
+.two-part .second .mandv .mission .mission-info p{
+    text-align: justify;
+    padding: .3rem 0;
+}
+
+.two-part .second .mandv .mission .mission-info li{
+    list-style: square;
+    margin: .3rem 0;
+}
+
+.two-part .second .achievement{
+    margin: 5rem 0;
+}
+
+.two-part .second .achievement h1{
+    text-align: center;
+    color: rgb(235, 37, 11);
+    padding: 1rem;
+}
+.two-part .second .achievement .left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 2rem 0;
+}
+
+.two-part .second .achievement .left .block{
+    border: 2px solid rgb(235, 37, 11);
+}
+.two-part .second .achievement .left .block p{
+    padding: 1rem;
+    text-align: justify;
+}
+
+.two-part .second .sgi-why{
+    margin: 5rem 0;
+}
+.two-part .second .sgi-why h1{
+    text-align: center;
+    color: rgb(235, 37, 11);
+    padding: 1rem;
+}
+
+.two-part .second .sgi-why .sgi-info{
+    display: flex;
+    padding: 1rem;
+}
+.two-part .second .sgi-why .sgi-info i{
+    padding: 0 .4rem;
+}
+
+.two-part .second .sgi-why .sgi-info p{
+    text-align: justify;
+}
+
+/* ----------------------------management------------------------------------------------------ */
+
+
+.head-img .showcase-img2{
+    background: url('./image/showxase13.jpg') no-repeat center center/cover;
+    height:65vh;
+
+}
+
+.two-part .second .about-trust{
+    margin: 3rem 0;
+}
+
+.two-part .second .about-trust h1{
+    text-align: center;
+    color: rgb(235, 37, 11);
+    padding: 1rem 0;
+}
+
+.two-part .second .about-trust .trust-flex{
+    display: flex;
+    padding: 2rem;
+}
+.two-part .second .about-trust .trust-flex .trust-info{
+    padding: 2rem;
+}
+
+.two-part .second .about-trust .trust-flex .trust-info p{
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.two-part .second .about-trust .trust-flex .trust-img{
+    border: 2px solid rgb(235, 37, 11);
+    padding: .5rem;
+}
+.two-part .second .about-trust .trust-flex .trust-img img{
+    width: 100%;
+}
+
+.two-part .second  .picture{
+    margin: 5rem 0;
+}
+
+.two-part .second .picture h1{
+    color: rgb(235, 37, 11);
+    text-align: center;
+    padding: 2rem 0;
+}
+.two-part .second  .pic{
+    width: 70%;
+   margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+}
+
+
+.two-part .second  .pic img{
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 1rem;
+    margin: .8rem auto;
+    width: 50%;
+}
+.two-part .second  .pic div{
+    text-align: center;
+}
+.two-part .second  .pic p{
+    font-size: .8rem;
+    color: #333;
+   text-align: center;
+}
+
+.two-part .second .sgi-management{
+    margin: 5rem 0;
+
+}
+
+.two-part .second .sgi-management h1{
+    color: rgb(235, 37, 11);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.two-part .second .sgi-management .r,
+.two-part .second .sgi-management .l{
+    display: flex;
+}
+
+.two-part .second .sgi-management .management-flex .management-info{
+    padding: 0 1.5rem;
+}
+.two-part .second .sgi-management .management-flex .management-info p{
+    text-align: justify;
+    padding: .3rem 0;
+}
+
+.two-part .second .sgi-management .management-flex .management-img{
+    text-align: center;
+    padding: 3rem 0;
+}
+.two-part .second .sgi-management .management-flex .management-img img{
+    width: 100%;
+}
+
+.two-part .second .advisory{
+    margin: 5rem 0;
+}
+.two-part .second .advisory h1{
+    text-align: center;
+    color: rgb(235, 37, 11);
+    padding: 2rem 0;
+}
+
+.two-part .second .advisory .advisory-part{
+    display: flex;
+} 
+
+.two-part .second .advisory .advisory-part .ad{
+    margin: 1rem;
+    text-align: center;
+}
+.two-part .second .advisory .advisory-part .ad img{
+    width: 60%;
+}
+
+.two-part .second .advisory .advisory-part .ad .ad-info{
+    text-align: justify;
+    padding: 1rem 0;
+}
+
+/* ------------------------------infrstrucuture-------------------------------- */
+
+.two-part .second  .campus{
+    margin: 3rem 0;
+
+}
+
+.two-part .second  .campus h1{
+    color: rgb(235, 37, 11);
+    text-align: center;
+    padding:2rem 0;
+}
+
+.two-part .second  .campus .infra{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: .5rem;
+}
+
+.two-part .second  .campus .infra div{
+    overflow: hidden;
+    cursor: pointer;
+}
+.two-part .second  .campus .infra img{
+    width: 100%;
+}
+.two-part .second  .campus .infra img:hover{
+    transform: scale(1.2);
+}
+
+/* -------------------------------------acdemic----------------------------------------------- */
+.head-img .showcase-img3{
+    background: url('./image/showxase13.jpg') center center/cover;
+    height: 50vh;
+}
+
+.two-part .second .curriculum1{
+    background: url('./image/logo1.png') no-repeat center center/contain;
+    margin: 3rem 0;
+    background-size: 800px;
+
+}
+
+.two-part .second .showcase{
+    background: rgba(255,255,255,.7);
+}
+
+.two-part .second .showcase h1{
+    text-align: center;
+    color: rgb(235, 37, 11);
+    padding: 2rem;
+}
+
+.two-part .second  .showcase .curriculum-info p{
+    text-align: justify;
+    padding: .3rem;
+}
+.two-part .second .curriculum2{
+    background: url('./image/logo2.jpg') no-repeat center center/contain;
+    background-size: 800px;
+    margin: 3rem 0;
+    
+}
+
+.two-part .second .curriculum3{
+    background: url('./image/logo4.png') no-repeat center center/contain;
+    background-size: 800px;
+   
+    margin: 3rem 0;
+
+}
+
+.two-part .second .brochure-bg{
+    background: url('./image/showcase12.jpg');
+    margin: 3rem 0;
+    display: flex;
+    /* height: 30vh; */
+}
+
+
+.two-part .second  .red{
+    background: rgba(235, 37, 11,.5);
+    height: 100%;
+}
+
+.two-part .second  .black{
+    background: rgba(63, 61, 61, 0.6);
+    height: 100%;
+}
+
+.two-part .second .brochure-info{
+    padding: 4rem;
+    text-align: center;
+}
+
+.two-part .second .brochure-info a{
+    font-size: 1.1rem;
+}
+
+.two-part .second .brochure-bg1{
+    background: url('./image/showxase13.jpg');
+    margin: 3rem 0;
+    display: flex;
+    
+}
+.two-part .second .primary{
+    margin: 5rem 0;
+    
+}
+
+.two-part .second .primary h1{
+    color: rgb(235, 37, 11);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.two-part .second .primary .pri{
+    display: flex;
+}
+.two-part .second .primary .pri .pri-l{
+    text-align: justify;
+}
+.two-part .second .primary .pri .pri-l ul{
+    padding: 1rem 0;
+}
+
+.two-part .second .primary .pri .pri-l ul li{
+    list-style: square;
+    margin-left: 1.5rem;
+}
+.two-part .second .primary .pri .pri-r{
+    padding:  1rem;    
+    
+}
+
+.two-part .second .primary .pri .pri-r img{
+    width: 25rem;
+    height: 20rem;
+    border-radius:1rem;
+}
+
+
+.two-part .second .teacher{
+    background: url('./image/college-student-girl-library_23-2147678809.jpg')no-repeat center center/cover;
+    background-position-y: -5rem;
+    background-attachment: fixed;
+    margin: 5rem 0;
+}
+.two-part .second .teacher .teacher-showcase{
+    background: rgba(235, 37, 11,.5);
+    display: flex;
+    height: 100%;
+    padding: 3rem;
+}
+.two-part .second .teacher .teacher-showcase .teacher-l{
+    text-align: center;
+    /* padding: 1rem; */
+    color: #fff;
+    margin: .5rem;
+}
+.two-part .second .teacher .teacher-showcase .teacher-l div{
+    border: 2px rgb(235, 37, 11) solid;
+    padding: 1rem;
+}
+
+.two-part .second .teacher .teacher-showcase .teacher-r{
+    text-align: justify;
+    color: #fff;
+}
+
+.two-part .second .teacher .teacher-showcase .teacher-r p{
+    padding: 0 1rem ;
+    font-size: 1.1rem;
+}
+
+.two-part .second .activity{
+    margin: 5rem 0;
+}
+
+.two-part .second .activity .act{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.two-part .second .activity  h1{
+    padding: 2rem 0;
+    color: rgb(235, 37, 11);
+    text-align: center;
+}
+
+
+.two-part .second .activity .act .activity-r{
+    width: 90%;
+    margin: 0 auto;
+}
+.two-part .second .activity .act .activity-l p{
+    padding: 1rem 0;
+    text-align: justify;
+}
+
+.two-part .second .activity .act .activity-r img{
+    width: 100%;
+}
+
+.two-part .second .activity .act .activity-l .link{
+    border: 2px solid rgb(235, 37, 11);
+    display: inline-block;
+    padding: 1rem;
+}
+
+.two-part .second .activity .act .activity-l .link a{
+    /* padding: 2rem; */
+    color: rgb(235, 37, 11);
+}
+.two-part .second .competition{
+    margin: 5rem 0;
+}
+
+.two-part .second .competition h1{
+    padding: 2rem 0;
+    color: rgb(235, 37, 11);
+    text-align: center;
+}
+
+.two-part .second .competition .comp{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: .5rem;
+}
+.two-part .second .competition .comp div{
+    border: 2px solid rgb(235, 37, 11);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+.two-part .second .competition .comp div a{
+    color: rgb(235, 37, 11);
+}
+
+/* -----------------------------admission------------------------------- */
+.admisson{
+    
+    margin:5rem 0;
+}
+
+.admisson .buil{
+    display: flex;
+    justify-content: center;
+}
+
+.admisson .buil img{  
+   
+    border-radius: 2rem;
+}
+    
+    
+.admisson .p{
+    padding: 4rem;
+}
+.admisson .p p{
+    text-align: justify;
+}
+    
+.admisson .p p,.admisson .p h4{
+    padding: 1rem;
+}
+
+.admisson .p table{
+    margin: 2rem;
+}
+.admisson .p table tr {
+    text-align: center;
+padding: .5rem;
+}
+
+.admisson .p table tr th{
+    border: 2px red solid;
+    padding: 5px;
+}
+.admisson .p table tr td{
+    padding: 5px;
+    border: 1px solid;
+}
+.admisson h1{
+    text-align: center;
+    color: rgb(235, 37, 11);
+    padding: 2rem 0;
+}
+.fee{
+    width: 80%;
+    margin: 5rem auto;
+}
+.fee .fees{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    grid-gap: 1rem;
+
+}
+.fee div{
+    padding: 2rem;
+}
+
+.fee p{
+    text-align: justify;
+    padding: 5px;
+}
+.fee h1{
+    text-align: center;
+    color: red;
+    padding-bottom: 10px;
+}
+
+/* -----------------------------------department-------------------------------------- */
+
+.two-part .second .department{
+    margin: 3rem 0;
+}
+.two-part .second .department h1{
+    padding: 2rem 0;
+    color: rgb(235, 37, 11);
+    text-align: center;
+}
+
+.two-part .second .department .dep img{
+    width: 70%;
+    margin: 0 15%;
+    padding: 1rem 0;
+}
+
+
+.two-part .second .department .dep p{
+    padding: .5rem 1rem ;
+    text-align: justify;
+}
+
+/* ----------------------------club----------------------------------------------------- */
+
+.two-part .second .about{
+    margin: 3rem 0;
+}
+
+.two-part .second .about h1{
+    text-align: center;
+    color: rgb(235, 37, 11);
+    padding: 1rem 0;
+}
+.two-part .second .about div{
+    padding: 1rem ;
+    margin: 1rem;
+    border: 2px solid rgb(235, 37, 11);
+}
+
+.two-part .second .about div p{
+    padding: .5rem;
+    text-align: justify;
+}
+
+.two-part .second .about div ul{
+    margin: 1rem 1.5rem;
+}
+.two-part .second .about div ul li{
+    list-style: square;
+}
+
+/* ------------------------house---------------------------------------------------------- */
+
+/* -------------------------------------facility------------------------------------------------------------- */
+.boarding
+{
+    margin: 5rem 0;
+}
+
+.boarding h1{
+    padding: 2rem 0;
+    color: rgb(235, 37, 11);
+    text-align: center;
+}
+
+.boarding .bard-img{
+    display: flex;
+    padding: 1rem 0;
+    justify-content: center;
+}
+.boarding .bard-img img{
+    width: 50%;
+    padding:0 1rem ;
+}
+.boarding .board-info .para{
+    padding: 1rem;
+    text-align: justify;
+}
+.boarding .board-info .panel{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.boarding .board-info .panel div:hover{
+    background-color: rgb(235, 37, 11);
+}
+.boarding .board-info .panel div:hover i,
+.boarding .board-info .panel div:hover a{
+    color: #fff;
+}
+.boarding .board-info .panel div{
+    padding: .5rem 1rem;
+    margin: .5rem 0;
+    text-align: justify;
+}
+
+.boarding .board-info .panel div a{
+    padding: 0 1rem;
+    color: #333;
+    text-align: center;
+}
